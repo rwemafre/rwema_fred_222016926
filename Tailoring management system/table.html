@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students List</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+body h1{
+    text-align: center;
+    color: blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.actions a {
+  color: #3498db; /* Blue */
+  text-decoration: none;
+}
+
+.actions a:hover {
+  color: #2980b9; /* Blue hover */
+}
+
+  </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="book.html">My Book</a></li>
+        </ul>
+      </nav>
+
+  <h1>Customers List</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Program</th>
+        <th colspan="2">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Uwayo Jean</td>
+        <td>jean@example.com</td>
+        <td>Web Development</td>
+        <td><a href="#">Edit</a> </td>
+          <td><a href="#">Delete</a></td>
+      </tr>
+      <tr>
+        <td>Ishimwe Beni</td>
+        <td>ish@example.com</td>
+        <td>Data Science</td>
+          <td><a href="#">Edit</a> </td>
+          <td><a href="#">Delete</a></td>
+      </tr>
+      </tbody>
+  </table>
+
+</body>
+</html>
